@@ -1,5 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.ConfigureHostOptions(options => options.ShutdownTimeout = TimeSpan.FromSeconds(30));
+builder.WebHost.UseShutdownTimeout(TimeSpan.FromSeconds(30));
+
 // Add services to the container.
 
 builder.Services.AddControllers();
