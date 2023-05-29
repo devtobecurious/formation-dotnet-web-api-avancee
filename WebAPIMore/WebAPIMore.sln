@@ -5,11 +5,45 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIMore", "WebAPIMore\WebAPIMore.csproj", "{68988D4B-9345-43F0-9667-EC38A14BC080}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68888B3D-76FE-4641-9027-DEAC122AAB00}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "104. MC intro", "104. MC intro", "{68888B3D-76FE-4641-9027-DEAC122AAB00}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{7285474B-D97B-4229-B140-682231743F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEmpty", "WebEmpty\WebEmpty.csproj", "{09015D4A-57DB-4A22-925A-972B3050AD98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebEmpty", "WebEmpty\WebEmpty.csproj", "{09015D4A-57DB-4A22-925A-972B3050AD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "101. .net ton univers", "101. .net ton univers", "{97AD5B52-04DF-48B7-970B-323E414CD534}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "102. Les nouveautés de dotnet", "102. Les nouveautés de dotnet", "{55C585AC-2F0F-4677-BE20-B98BFE7AEF94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "103. Remises à niveau", "103. Remises à niveau", "{431F7B5D-050C-4FC8-A1C2-949657A68763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "205. Paramétrage", "205. Paramétrage", "{C3DBAF17-A7F1-4D7D-AF4B-C06A634AC300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "206. Base de données", "206. Base de données", "{AB93790D-848C-4F00-ADED-0F2D755A86EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "307. Qualité logicielle", "307. Qualité logicielle", "{DC77675F-187F-4BF4-8ACE-303DED4CD793}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "308. Tester", "308. Tester", "{F1ECB286-191A-4906-8B04-8F18BBA6C3F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "409. Formulaires", "409. Formulaires", "{3E53471E-3A32-4755-9DD1-559F3E5BD033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "410. Routages", "410. Routages", "{6C2099B8-90BA-4389-804F-6A6F9BEC50BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "411. Exceptions", "411. Exceptions", "{66A3DE91-86FF-48F3-975C-1AE098C6114B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "412. Logger", "412. Logger", "{D92E8BA4-EE4B-4FA8-91F1-3809898C840B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "413. Déployer", "413. Déployer", "{A162A8FB-72D0-4A9F-B501-758B1F4D172C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "414. Sécurité", "414. Sécurité", "{D5B5A2C2-CA2F-489F-AC82-D1FFD722AA82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "515. Controller ++", "515. Controller ++", "{CE4E6982-5247-4B7F-8CB3-839EC08E2D90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "517. Aller plus loin", "517. Aller plus loin", "{9EBA302D-7FEF-45A1-8F9C-4CB2B7020F7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "516. Performances", "516. Performances", "{B877DEC7-6E85-4927-823A-1198D7FDD16A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "618. Développer avec asp.net core", "618. Développer avec asp.net core", "{6285C2A5-5FEF-4837-B8DE-C507C2FE87A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
