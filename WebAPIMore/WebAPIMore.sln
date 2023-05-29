@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverRecords", "Discover
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverInit", "DiscoverInit\DiscoverInit.csproj", "{1394E9A7-3865-40AE-ACBB-1987FD38B650}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverGlobalUsing", "DiscoverGlobalUsing\DiscoverGlobalUsing.csproj", "{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{1394E9A7-3865-40AE-ACBB-1987FD38B650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1394E9A7-3865-40AE-ACBB-1987FD38B650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1394E9A7-3865-40AE-ACBB-1987FD38B650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{09015D4A-57DB-4A22-925A-972B3050AD98} = {68888B3D-76FE-4641-9027-DEAC122AAB00}
 		{4132900F-F6B1-4F85-8D86-ABAEBF602BC2} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 		{1394E9A7-3865-40AE-ACBB-1987FD38B650} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
+		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
