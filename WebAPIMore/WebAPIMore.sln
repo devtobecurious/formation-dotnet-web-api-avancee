@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverInit", "DiscoverIni
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverGlobalUsing", "DiscoverGlobalUsing\DiscoverGlobalUsing.csproj", "{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverDeconstruct", "DiscoverDeconstruct\DiscoverDeconstruct.csproj", "{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{4132900F-F6B1-4F85-8D86-ABAEBF602BC2} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 		{1394E9A7-3865-40AE-ACBB-1987FD38B650} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
+		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
