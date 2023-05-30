@@ -3,7 +3,7 @@ using DiscoverRecords;
 
 var positionC = new PositionC(1, 1);
 var positionC2 = positionC;
-positionC2.X = 2;
+//positionC2.X = 2;
 
 Console.WriteLine($"1: {positionC.X} / 2: {positionC2.X}, ?: {positionC == positionC2}");
 
