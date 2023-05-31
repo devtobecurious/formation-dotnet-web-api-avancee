@@ -16,6 +16,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "102. Les nouveautés de dotnet", "102. Les nouveautés de dotnet", "{55C585AC-2F0F-4677-BE20-B98BFE7AEF94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "103. Remises à niveau", "103. Remises à niveau", "{431F7B5D-050C-4FC8-A1C2-949657A68763}"
+	ProjectSection(SolutionItems) = preProject
+		103-readme.md = 103-readme.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "205. Paramétrage", "205. Paramétrage", "{C3DBAF17-A7F1-4D7D-AF4B-C06A634AC300}"
 EndProject
@@ -45,13 +48,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "516. Performances", "516. P
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "618. Développer avec asp.net core", "618. Développer avec asp.net core", "{6285C2A5-5FEF-4837-B8DE-C507C2FE87A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverRecords", "DiscoverRecords\DiscoverRecords.csproj", "{4132900F-F6B1-4F85-8D86-ABAEBF602BC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverRecords", "DiscoverRecords\DiscoverRecords.csproj", "{4132900F-F6B1-4F85-8D86-ABAEBF602BC2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverInit", "DiscoverInit\DiscoverInit.csproj", "{1394E9A7-3865-40AE-ACBB-1987FD38B650}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverGlobalUsing", "DiscoverGlobalUsing\DiscoverGlobalUsing.csproj", "{70E58E56-51BF-41A4-91B0-5D9DA4F2D138}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverDeconstruct", "DiscoverDeconstruct\DiscoverDeconstruct.csproj", "{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportHttp3", "SupportHttp3\SupportHttp3.csproj", "{268075AE-6BCD-4D88-866F-5593CC5ED97D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +92,10 @@ Global
 		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268075AE-6BCD-4D88-866F-5593CC5ED97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268075AE-6BCD-4D88-866F-5593CC5ED97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268075AE-6BCD-4D88-866F-5593CC5ED97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268075AE-6BCD-4D88-866F-5593CC5ED97D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +108,7 @@ Global
 		{1394E9A7-3865-40AE-ACBB-1987FD38B650} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
+		{268075AE-6BCD-4D88-866F-5593CC5ED97D} = {431F7B5D-050C-4FC8-A1C2-949657A68763}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
