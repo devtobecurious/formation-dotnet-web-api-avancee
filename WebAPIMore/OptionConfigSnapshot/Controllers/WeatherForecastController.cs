@@ -15,7 +15,7 @@ namespace OptionConfig.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IOptions<Wookiee> options)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IOptionsSnapshot<Wookiee> options)
         {
             _logger = logger;
             var value = options.Value;
