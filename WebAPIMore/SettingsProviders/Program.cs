@@ -1,6 +1,10 @@
+using Microsoft.Extensions.Configuration;
+using SettingsProviders.Providers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Configuration.AddCSVConfiguration(options => options.FilePath = "la.csv");
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
