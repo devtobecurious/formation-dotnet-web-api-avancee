@@ -1,11 +1,9 @@
 ﻿namespace ORMDecouverte.Models
 {
-    public class Wookiee
+    public class Weapon
     {
         public int Id { get; set; }
 
         public string? Name { get; set; }
-
-        public Weapon? Weapon { get; set; }
     }
 }
