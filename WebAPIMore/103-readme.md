@@ -29,5 +29,8 @@ La méthode DELETE supprime la ressource indiquée.
 La méthode HTTP OPTIONS est utilisée pour décrire les options de communication pour la ressource ciblée. Le client peut renseigner une URL spécifique pour la méthode OPTIONS, ou une astérisque (*) pour interroger le serveur dans sa globalité.
 
 # REST FULL
-representational state transfer  
+Representational state transfer 
+## Stateless
+## HATEOAS
+Hypermedia As The Engine of Application State
 
