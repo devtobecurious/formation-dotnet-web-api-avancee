@@ -62,6 +62,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsProviders", "Settin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryConfig", "InMemoryConfig\InMemoryConfig.csproj", "{11E48884-F6E4-4304-A405-7F5AC4917CF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionConfig", "OptionConfig\OptionConfig.csproj", "{A5A3B6F8-A785-412C-8DDC-372E42DE9380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,6 +110,10 @@ Global
 		{11E48884-F6E4-4304-A405-7F5AC4917CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11E48884-F6E4-4304-A405-7F5AC4917CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E48884-F6E4-4304-A405-7F5AC4917CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A3B6F8-A785-412C-8DDC-372E42DE9380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A3B6F8-A785-412C-8DDC-372E42DE9380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A3B6F8-A785-412C-8DDC-372E42DE9380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A3B6F8-A785-412C-8DDC-372E42DE9380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{268075AE-6BCD-4D88-866F-5593CC5ED97D} = {431F7B5D-050C-4FC8-A1C2-949657A68763}
 		{C73571B9-9EBD-423F-B952-1605E6568A74} = {C3DBAF17-A7F1-4D7D-AF4B-C06A634AC300}
 		{11E48884-F6E4-4304-A405-7F5AC4917CF9} = {C3DBAF17-A7F1-4D7D-AF4B-C06A634AC300}
+		{A5A3B6F8-A785-412C-8DDC-372E42DE9380} = {C3DBAF17-A7F1-4D7D-AF4B-C06A634AC300}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
