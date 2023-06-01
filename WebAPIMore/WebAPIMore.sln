@@ -56,7 +56,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverGlobalUsing", "Disc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverDeconstruct", "DiscoverDeconstruct\DiscoverDeconstruct.csproj", "{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportHttp3", "SupportHttp3\SupportHttp3.csproj", "{268075AE-6BCD-4D88-866F-5593CC5ED97D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportHttp3", "SupportHttp3\SupportHttp3.csproj", "{268075AE-6BCD-4D88-866F-5593CC5ED97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsProviders", "SettingsProviders\SettingsProviders.csproj", "{C73571B9-9EBD-423F-B952-1605E6568A74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +98,10 @@ Global
 		{268075AE-6BCD-4D88-866F-5593CC5ED97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{268075AE-6BCD-4D88-866F-5593CC5ED97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{268075AE-6BCD-4D88-866F-5593CC5ED97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73571B9-9EBD-423F-B952-1605E6568A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73571B9-9EBD-423F-B952-1605E6568A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73571B9-9EBD-423F-B952-1605E6568A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73571B9-9EBD-423F-B952-1605E6568A74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{70E58E56-51BF-41A4-91B0-5D9DA4F2D138} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 		{CD10B9C8-9EBC-4EDA-B5AF-5F7728DF706E} = {55C585AC-2F0F-4677-BE20-B98BFE7AEF94}
 		{268075AE-6BCD-4D88-866F-5593CC5ED97D} = {431F7B5D-050C-4FC8-A1C2-949657A68763}
+		{C73571B9-9EBD-423F-B952-1605E6568A74} = {68888B3D-76FE-4641-9027-DEAC122AAB00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
