@@ -24,6 +24,10 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+var urls = app.Urls;
+urls.Add("http://*:6001");
+urls.Add("https://*:6002");
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
