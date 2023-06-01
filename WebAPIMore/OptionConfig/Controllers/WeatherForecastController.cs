@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using OptionConfig.Configs;
 
 namespace OptionConfig.Controllers
 {
@@ -13,9 +15,10 @@ namespace OptionConfig.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IOptions<Wookiee> options)
         {
             _logger = logger;
+            var value = options.Value;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]

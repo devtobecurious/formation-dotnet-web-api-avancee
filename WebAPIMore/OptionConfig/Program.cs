@@ -1,4 +1,10 @@
+using Microsoft.Extensions.Configuration;
+using OptionConfig.Configs;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSpecificsOptions(builder.Configuration);
+
 
 // Add services to the container.
 
