@@ -4,6 +4,6 @@
     {
         Weak,
         Strong,
-        MaxEnergy
+        MaEnergy
     }
 }
