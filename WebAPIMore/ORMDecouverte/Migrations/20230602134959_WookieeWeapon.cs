@@ -6,19 +6,11 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace ORMDecouverte.Migrations
 {
     /// <inheritdoc />
-    public partial class WeaponWookiee : Migration
+    public partial class WookieeWeapon : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterColumn<string>(
-                name: "Name",
-                table: "Wookies",
-                type: "longtext",
-                nullable: true,
-                oldClrType: typeof(string),
-                oldType: "longtext");
-
             migrationBuilder.AddColumn<int>(
                 name: "WeaponId",
                 table: "Wookies",
@@ -69,16 +61,6 @@ namespace ORMDecouverte.Migrations
             migrationBuilder.DropColumn(
                 name: "WeaponId",
                 table: "Wookies");
-
-            migrationBuilder.AlterColumn<string>(
-                name: "Name",
-                table: "Wookies",
-                type: "longtext",
-                nullable: false,
-                defaultValue: "",
-                oldClrType: typeof(string),
-                oldType: "longtext",
-                oldNullable: true);
         }
     }
 }
