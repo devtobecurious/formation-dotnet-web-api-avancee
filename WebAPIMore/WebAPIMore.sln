@@ -82,6 +82,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfieAWookies.Core.Selfies
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfieAWookie.API.UI", "mediators\SelfieAWookie.API.UI\SelfieAWookie.API.UI.csproj", "{57A42C41-9233-4E9C-9FE7-360635207322}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routages", "Routages\Routages.csproj", "{3D3E8E69-6B0C-473A-A582-522F5B710083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,6 +170,10 @@ Global
 		{57A42C41-9233-4E9C-9FE7-360635207322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A42C41-9233-4E9C-9FE7-360635207322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A42C41-9233-4E9C-9FE7-360635207322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3E8E69-6B0C-473A-A582-522F5B710083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3E8E69-6B0C-473A-A582-522F5B710083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3E8E69-6B0C-473A-A582-522F5B710083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3E8E69-6B0C-473A-A582-522F5B710083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +199,7 @@ Global
 		{3F175BBB-EE78-49DB-AF4C-F471F02BA971} = {DC77675F-187F-4BF4-8ACE-303DED4CD793}
 		{3CFFFE12-5728-4305-90C1-086272B78C19} = {DC77675F-187F-4BF4-8ACE-303DED4CD793}
 		{57A42C41-9233-4E9C-9FE7-360635207322} = {DC77675F-187F-4BF4-8ACE-303DED4CD793}
+		{3D3E8E69-6B0C-473A-A582-522F5B710083} = {6C2099B8-90BA-4389-804F-6A6F9BEC50BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
