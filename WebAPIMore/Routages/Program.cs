@@ -16,10 +16,23 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.MapGet("/hello/{name}", (string name) => $"Hello {name}!");
 app.MapControllers();
+
+app.MapGet("/", () => "Hello World!");
+
+//app.Use(async (context, next) =>
+//{
+//    await context.Response.WriteAsync("Hello");
+
+
+//    await next.Invoke();
+//});
+
 
 app.Run();
