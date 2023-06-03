@@ -20,7 +20,8 @@ namespace ConventionApi.Controllers
 
         
         [HttpGet(Name = "GetWeatherForecast")]
-        //[Route("users/{id:int:min(1)}")]
+        [ApiConventionMethod(typeof(DefaultApiConventions),
+                     nameof(DefaultApiConventions.Get))]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
