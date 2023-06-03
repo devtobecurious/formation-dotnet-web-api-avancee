@@ -37,7 +37,7 @@ app.Use(async (context, next) =>
     }
 });
 
-//app.UseRouting();
+//app.UseRouting(); // activer / désactiver pour démontrer
 
 app.Use(async (context, next) =>
 {

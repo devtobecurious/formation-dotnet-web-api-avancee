@@ -18,7 +18,8 @@ namespace CustomConstraints.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet("forecast/{id:int:min(18)}")]
+        //[Route("users/{id:int:min(1)}")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

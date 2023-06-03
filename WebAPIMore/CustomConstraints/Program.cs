@@ -1,6 +1,15 @@
+using CustomConstraints.Constraints;
+using CustomConstraints.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+builder.Services.AddRouting(options =>
+{
+    options.ConstraintMap.Add("wook", typeof(WookieeLanguageConstraint));
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -21,5 +30,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapWeatherForecastEndpoints();
 
 app.Run();
