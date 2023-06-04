@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace SimpleCatching.Controllers
+namespace ApiControllerAndRouteUsing.Controllers
 {
-    [ApiController]
+    //[ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
@@ -19,6 +19,9 @@ namespace SimpleCatching.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get() => throw new Exception("Failed");
+        public IActionResult Get()
+        {
+            return NotFound();
+        }
     }
 }

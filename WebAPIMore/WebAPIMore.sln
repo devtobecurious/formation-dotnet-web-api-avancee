@@ -58,15 +58,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoverDeconstruct", "Disc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportHttp3", "SupportHttp3\SupportHttp3.csproj", "{268075AE-6BCD-4D88-866F-5593CC5ED97D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsProviders", "SettingsProviders\SettingsProviders.csproj", "{C73571B9-9EBD-423F-B952-1605E6568A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SettingsProviders", "SettingsProviders\SettingsProviders.csproj", "{C73571B9-9EBD-423F-B952-1605E6568A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryConfig", "InMemoryConfig\InMemoryConfig.csproj", "{11E48884-F6E4-4304-A405-7F5AC4917CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryConfig", "InMemoryConfig\InMemoryConfig.csproj", "{11E48884-F6E4-4304-A405-7F5AC4917CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionConfig", "OptionConfig\OptionConfig.csproj", "{A5A3B6F8-A785-412C-8DDC-372E42DE9380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionConfig", "OptionConfig\OptionConfig.csproj", "{A5A3B6F8-A785-412C-8DDC-372E42DE9380}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionConfigSnapshot", "OptionConfigSnapshot\OptionConfigSnapshot.csproj", "{2FD0FC66-10B8-4135-95C4-11E6F89FCD9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORMDecouverte", "ORMDecouverte\ORMDecouverte.csproj", "{9AFBA981-F9CE-4198-8BCB-851737AC7A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORMDecouverte", "ORMDecouverte\ORMDecouverte.csproj", "{9AFBA981-F9CE-4198-8BCB-851737AC7A74}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORMStepTwo", "ORMStepTwo\ORMStepTwo.csproj", "{52E58EB8-4D21-42D8-B34E-B476B40D29DF}"
 EndProject
@@ -82,17 +82,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfieAWookies.Core.Selfies
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfieAWookie.API.UI", "mediators\SelfieAWookie.API.UI\SelfieAWookie.API.UI.csproj", "{57A42C41-9233-4E9C-9FE7-360635207322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routages", "Routages\Routages.csproj", "{3D3E8E69-6B0C-473A-A582-522F5B710083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routages", "Routages\Routages.csproj", "{3D3E8E69-6B0C-473A-A582-522F5B710083}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routages-EndPoint", "Routages-EndPoint\Routages-EndPoint.csproj", "{CC6EEE63-CCE9-4525-9EE5-0F07DF1B634E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConstraints", "CustomConstraints\CustomConstraints.csproj", "{0A43F068-CFCA-4C16-B277-32A5F05EDDA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomConstraints", "CustomConstraints\CustomConstraints.csproj", "{0A43F068-CFCA-4C16-B277-32A5F05EDDA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConventionApi", "ConventionApi\ConventionApi.csproj", "{C8E0ACBE-0089-4268-9278-7B8988BDD140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConventionApi", "ConventionApi\ConventionApi.csproj", "{C8E0ACBE-0089-4268-9278-7B8988BDD140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMiddleware", "CustomMiddleware\CustomMiddleware.csproj", "{88EAEF7A-A9C7-4E1F-BC38-DA7069113894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomMiddleware", "CustomMiddleware\CustomMiddleware.csproj", "{88EAEF7A-A9C7-4E1F-BC38-DA7069113894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCatching", "SimpleCatching\SimpleCatching.csproj", "{FF02DBF3-12A4-479F-B1B2-568B8A3DB3E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCatching", "SimpleCatching\SimpleCatching.csproj", "{FF02DBF3-12A4-479F-B1B2-568B8A3DB3E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiControllerAndRouteUsing", "ApiControllerAndRouteUsing\ApiControllerAndRouteUsing.csproj", "{36F3C25E-3F55-4638-80DC-00210E3D6C92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -204,6 +206,10 @@ Global
 		{FF02DBF3-12A4-479F-B1B2-568B8A3DB3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF02DBF3-12A4-479F-B1B2-568B8A3DB3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF02DBF3-12A4-479F-B1B2-568B8A3DB3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F3C25E-3F55-4638-80DC-00210E3D6C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F3C25E-3F55-4638-80DC-00210E3D6C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F3C25E-3F55-4638-80DC-00210E3D6C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F3C25E-3F55-4638-80DC-00210E3D6C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,6 +241,7 @@ Global
 		{C8E0ACBE-0089-4268-9278-7B8988BDD140} = {6C2099B8-90BA-4389-804F-6A6F9BEC50BD}
 		{88EAEF7A-A9C7-4E1F-BC38-DA7069113894} = {6C2099B8-90BA-4389-804F-6A6F9BEC50BD}
 		{FF02DBF3-12A4-479F-B1B2-568B8A3DB3E4} = {66A3DE91-86FF-48F3-975C-1AE098C6114B}
+		{36F3C25E-3F55-4638-80DC-00210E3D6C92} = {68888B3D-76FE-4641-9027-DEAC122AAB00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
