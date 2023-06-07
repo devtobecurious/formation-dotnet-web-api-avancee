@@ -98,6 +98,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiControllerAndRouteUsing"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemDetails", "ProblemDetails\ProblemDetails.csproj", "{E653469C-C590-4CD7-A3B0-226713399EA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerBasic", "LoggerBasic\LoggerBasic.csproj", "{3AD20221-B006-4EF9-A5AF-3A5C9C3393A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -216,6 +218,10 @@ Global
 		{E653469C-C590-4CD7-A3B0-226713399EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E653469C-C590-4CD7-A3B0-226713399EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E653469C-C590-4CD7-A3B0-226713399EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD20221-B006-4EF9-A5AF-3A5C9C3393A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD20221-B006-4EF9-A5AF-3A5C9C3393A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD20221-B006-4EF9-A5AF-3A5C9C3393A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD20221-B006-4EF9-A5AF-3A5C9C3393A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +255,7 @@ Global
 		{FF02DBF3-12A4-479F-B1B2-568B8A3DB3E4} = {66A3DE91-86FF-48F3-975C-1AE098C6114B}
 		{36F3C25E-3F55-4638-80DC-00210E3D6C92} = {68888B3D-76FE-4641-9027-DEAC122AAB00}
 		{E653469C-C590-4CD7-A3B0-226713399EA3} = {66A3DE91-86FF-48F3-975C-1AE098C6114B}
+		{3AD20221-B006-4EF9-A5AF-3A5C9C3393A0} = {D92E8BA4-EE4B-4FA8-91F1-3809898C840B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
