@@ -7,16 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Logging.ClearProviders();
-//builder.Logging.AddConsole(options =>
-//{
-//    options.DisableColors = false;
-//});
-builder.Logging.AddSimpleConsole(option =>
-{
-    option.SingleLine = true;
-    option.ColorBehavior = Microsoft.Extensions.Logging.Console.LoggerColorBehavior.Enabled;
-});
+
 
 var app = builder.Build();
 
