@@ -8,6 +8,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+//builder.Logging.ClearProviders();
+builder.Logging.AddSimpleConsole(opts =>
+{
+    opts.IncludeScopes = true;
+});
+
+
 
 var app = builder.Build();
 
