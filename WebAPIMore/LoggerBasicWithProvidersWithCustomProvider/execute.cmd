@@ -1,0 +1,3 @@
+set Logging__LogLevel__Microsoft=Error
+set Logging__LogLevel__LoggerBasic.Controllers.WeatherForecastController=Debug
+dotnet run 
