@@ -110,6 +110,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerBasicWithProvidersSel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerBasicWithProvidersWithCustomProvider", "LoggerBasicWithProvidersWithCustomProvider\LoggerBasicWithProvidersWithCustomProvider.csproj", "{19EB277E-5A5C-4EDF-94B1-8CAFC9B48807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseForms", "UseForms\UseForms.csproj", "{453B9CC9-212C-432A-9F94-DD363FB3DD7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -252,6 +254,10 @@ Global
 		{19EB277E-5A5C-4EDF-94B1-8CAFC9B48807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EB277E-5A5C-4EDF-94B1-8CAFC9B48807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EB277E-5A5C-4EDF-94B1-8CAFC9B48807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453B9CC9-212C-432A-9F94-DD363FB3DD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453B9CC9-212C-432A-9F94-DD363FB3DD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453B9CC9-212C-432A-9F94-DD363FB3DD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453B9CC9-212C-432A-9F94-DD363FB3DD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,6 +297,7 @@ Global
 		{4A39EE2B-6274-4A01-ABF1-6BF89EA90822} = {D92E8BA4-EE4B-4FA8-91F1-3809898C840B}
 		{84D8A939-CD8B-4C60-AC79-70A966A1BB62} = {D92E8BA4-EE4B-4FA8-91F1-3809898C840B}
 		{19EB277E-5A5C-4EDF-94B1-8CAFC9B48807} = {D92E8BA4-EE4B-4FA8-91F1-3809898C840B}
+		{453B9CC9-212C-432A-9F94-DD363FB3DD7D} = {3E53471E-3A32-4755-9DD1-559F3E5BD033}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6D586D-3F3E-4387-8F1E-6C7F2C5E777E}
