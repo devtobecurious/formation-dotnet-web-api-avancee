@@ -28,7 +28,15 @@ if (app.Environment.IsProduction())
     app.UseExceptionHandler("/error");
 }
 
-app.UseStatusCodePages(Text.Plain, "Status Code Page: {0}");
+//app.UseStatusCodePages(Text.Plain, "Status Code Page: {0}");
+app.UseStatusCodePages(async statusCodeContext =>
+{
+    // using static System.Net.Mime.MediaTypeNames;
+    statusCodeContext.HttpContext.Response.ContentType = Text.Plain;
+
+    await statusCodeContext.HttpContext.Response.WriteAsync(
+        $"Status Code Page: {statusCodeContext.HttpContext.Response.StatusCode}");
+});
 
 app.UseHttpsRedirection();
 
