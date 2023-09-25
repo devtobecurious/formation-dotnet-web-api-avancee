@@ -1,3 +1,5 @@
+using static System.Net.Mime.MediaTypeNames;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,9 +9,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddProblemDetails(options =>
-//{
-//});
+builder.Services.AddProblemDetails(options =>
+{
+});
+
 
 var app = builder.Build();
 
@@ -24,6 +27,8 @@ if (app.Environment.IsProduction())
 {
     app.UseExceptionHandler("/error");
 }
+
+app.UseStatusCodePages(Text.Plain, "Status Code Page: {0}");
 
 app.UseHttpsRedirection();
 
